@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600');
+
+body {
+	font-family: 'Josefin Slab', serif;
+	font-weight:400;
+	padding-top: 3.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+}
+
+img{
+	border: 5px solid white;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+	border-radius:50px;
+	width: 500px;
+}
+
+nav div[class^="col"]{
+	padding-top:0;
+}
+
+div[class^="col"]{
+	padding: 8rem 1rem 2rem;
+}
+
+div[class^="colu"]{
+	padding: 2rem 1rem 2rem;
+}
+
+.bg-lalala{
+	background:hsla(141, 69%, 78%, 1);
+}
+
+.bg-lalala:hover{
+     background: hsla(0, 69%, 78%, 1);
+     transition:all ease .5;
+}
+
+.navbar-brand {
+	
+}
